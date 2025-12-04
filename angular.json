@@ -13,7 +13,8 @@
             "flat": true,
             "changeDetection": "OnPush",
             "inlineStyle": true,
-            "inlineTemplate": true
+            "inlineTemplate": true,
+            "skipTests": true
         }
       },
       "root": "",
