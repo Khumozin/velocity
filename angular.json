@@ -8,7 +8,14 @@
   "projects": {
     "velocity": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+            "flat": true,
+            "changeDetection": "OnPush",
+            "inlineStyle": true,
+            "inlineTemplate": true
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
